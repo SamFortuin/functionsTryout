@@ -1,10 +1,4 @@
-custom = False
+def hello(text1='Hello from function town'):
+    print(text1)
 
-def hello(customText):
-    if custom:
-        print(customText)
-    else:
-        print("Hello from function town")
-
-
-hello('bebis')
+hello()
