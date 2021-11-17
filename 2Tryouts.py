@@ -1,5 +1,5 @@
-from random import randint as rn
-import time
+from random import randint
+from time import sleep
 
 def addition(num1,num2):
     return num1 + num2
@@ -16,7 +16,7 @@ def decrement(num):
 
 
 for i in range(3):
-    num1 = rn(1,10000);num2 = rn(1,10000)#generate the used numbers to demonstrate funsctions
+    num1 = randint(1,10000) ; num2 = randint(1,10000)#generate the used numbers to demonstrate functions
     print(f'Used numbers {num1} & {num2}')
     print(f'{num1} + {num2} = {addition(num1,num2)}')
     print(f'{num1} - {num2} = {subtraction(num1,num2)}')
@@ -24,4 +24,4 @@ for i in range(3):
     print(f'{num1} / {num2} = {devision(num1,num2)}')
     print(f'{num1} + 1 = {increment(num1)}')
     print(f'{num1} - 1 = {decrement(num1)}\n\n')
-    time.sleep(2.5)
+    sleep(2.5)
