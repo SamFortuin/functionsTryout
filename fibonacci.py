@@ -18,5 +18,10 @@ def fibonacci(howMany,sequence):
         return fibList
 
 #sequence print looks kinda weird but it works, change second arg to 'sequence'
-where = int(input('Which spot in the sequence would you like to see?\n'))
-print('Spot',where,'in the fibonacci chain is',str(fibonacci(where,'single')).replace('[','').replace(']',''))
+#where = int(input('Which spot in the sequence would you like to see?\n'))
+#print('Spot',where,'in the fibonacci chain is',str(fibonacci(where,'single')).replace('[','').replace(']',''))
+
+def test(var):
+    return var
+
+test('test')
